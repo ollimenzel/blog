@@ -1,7 +1,6 @@
 ---
 title: "Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync"
 date: 2023-05-16T16:38:45+02:00
-draft: true
 author: Oliver
 tags: ["How-to", "OneDrive", "SharePoint"]
 categories: ["Microsoft365"]
