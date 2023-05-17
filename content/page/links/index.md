@@ -35,3 +35,5 @@ links:
 ```
 
 `image` field accepts both local and external images.
+{{< figure src="data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 24 24%22%3E%0A%20%20%3Ccircle cx%3D%2212%22 cy%3D%2212%22 r%3D%2210%22%20%2F%3E%0A%3C%2Fsvg%3E" alt="Donut" >}}
+
