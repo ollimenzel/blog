@@ -1,5 +1,5 @@
 ---
-title: "ReconnectMultiLanguagePages"
+title: "Reconnecting Pages with Language Variations After Copying Them with ShareGate"
 date: 2023-07-27T11:57:41+02:00
 draft: false
 author: Oliver
@@ -9,8 +9,6 @@ slug: Disable_sharing
 toc: false
 image: Microsoft365-Logo.png
 ---
-## Reconnecting Pages with Language Variations After Copying Them with ShareGate
-
 When copying pages with language variations using ShareGate, you may encounter an issue where the Pages for the different languages are not properly connected to each other. This results in the variations not being displayed correctly on the site.
 
 To fix this issue, you can use PowerShell to reconnect the pages with their language variations. In this blog post, we'll walk through the PowerShell code for doing this.
