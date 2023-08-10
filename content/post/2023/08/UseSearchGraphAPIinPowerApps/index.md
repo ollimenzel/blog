@@ -122,6 +122,7 @@ Set(varFile,
     )
 ));
 ```
+This nice trick I learned from Hiro's Blog - Encode plain text to Base64 - https://mofumofupower.hatenablog.com/entry/encode_decode 
 The `varRequestBody` variable is then used to generate a Base64-encoded string that represents the request body for an HTTP request. This is done by first converting the varRequestBody variable to binary format, then to Base64 format. The resulting Base64 string is then used as the request body for the HTTP request.
 
 ```
