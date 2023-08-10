@@ -5,9 +5,9 @@ draft: false
 author: Oliver
 tags: ["How-to", "SiteOwners", "SharePoint"]
 categories: ["Microsoft365"]
-slug: Disable_sharing
+slug: reconnect_pages
 toc: false
-image: Microsoft365-Logo.png
+image: reconnect.png
 ---
 When copying pages with language variations using ShareGate, you may encounter an issue where the Pages for the different languages are not properly connected to each other. This results in the variations not being displayed correctly on the site.
 
