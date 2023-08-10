@@ -8,15 +8,16 @@ disqusShortname = "hugo-theme-stack"
 DefaultContentLanguage = "en"
 hasCJKLanguage = false
 
+[languages]
 [languages.en]
 languageName = "English"
 title = "Menzel.IT"
-description = "Example description"
 weight = 1
 
+[[module.imports]]
+path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 
 [permalinks]
-
 page = "/:slug/"
 
 [params]

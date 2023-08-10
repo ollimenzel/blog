@@ -8,3 +8,8 @@ Static Blog content
     hugo server -D
 - Create Blog
     hugo -t hugo-theme-stack
+
+#Admin
+#Update Theme
+hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v3
+hugo mod tidy
