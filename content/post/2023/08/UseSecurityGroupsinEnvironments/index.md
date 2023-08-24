@@ -1,7 +1,7 @@
 ---
 title: "Simplifying Collaboration: Sharing Power Platform Environments with Security Groups"
 date: 2023-08-21T11:37:23+02:00
-draft: true
+draft: false
 author: Oliver
 keywords: ["How-to", "Power Platform", "Security"]
 tags: ["How-to", "Power Platform", "Security"]
