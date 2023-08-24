@@ -1,6 +1,6 @@
 baseURL = 'https://www.menzel.it/'
 languageCode = 'en-us'
-title = 'Menzel.IT'
+title = 'My M365 Insights'
 
 theme = "hugo-theme-stack"
 paginate = 5
@@ -16,7 +16,7 @@ hasCJKLanguage = false
 [languages]
 [languages.en]
 languageName = "English"
-title = "Menzel.IT"
+title = "My M365 Insights"
 weight = 1
 
 [[module.imports]]

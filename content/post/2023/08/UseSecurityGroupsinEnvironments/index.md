@@ -3,12 +3,12 @@ title: "Simplifying Collaboration: Sharing Power Platform Environments with Secu
 date: 2023-08-21T11:37:23+02:00
 draft: true
 author: Oliver
-keywords:["How-to", "Power Platform", "Security"]
+keywords: ["How-to", "Power Platform", "Security"]
 tags: ["How-to", "Power Platform", "Security"]
 categories: ["PowerPlattform"]
 slug: EnvironmentSecurityGroups
 toc: false
-image: Microsoft365-Logo.png
+image: SCR-20230822-kbzs-2.png
 ---
 In today's rapidly evolving business landscape, collaboration and data-driven decision-making have become paramount. Microsoft's Power Platform empowers organizations to create custom apps, automate workflows, and derive insights from data, all without requiring extensive coding skills. As businesses strive for greater efficiency and agility, the need to collaborate seamlessly within a secure environment has become crucial. One effective way to achieve this is by sharing Power Platform environments with security groups.
 
