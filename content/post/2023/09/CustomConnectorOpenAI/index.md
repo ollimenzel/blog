@@ -3,7 +3,7 @@ title: "How to create a Custom connector for OpenAI in PowerApps"
 date: 2023-09-27T15:56:44+02:00
 draft: false
 author: Oliver
-keywords: ["How-to", "PowerApps", "ChatGPT"]
+keywords: ["How-to", "PowerApps", "ChatGPT", "AI", "OpenAI", "Custom Connector"]
 tags: ["How-to", "PowerApps"]
 categories: ["AI","PowerPlattform"]
 slug: CustomConnectorOpenAI
