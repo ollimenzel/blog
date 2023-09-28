@@ -36,29 +36,29 @@ To set up a custom connector for OpenAI, follow these steps:
 
 1. Go to https://make.powerapps.com/ and sign in with your Microsoft account.
 2. In the left navigation pane, click on Custom connectors.
-<img src="SCR-20230927-offd.png" alt="Custom connector" width="20%">
+{{< figure src="SCR-20230927-offd.png" alt="Custom connector" width="20%" class="my-float-left" >}}
 3. Click on New custom connector > Create from blank.
-<img src="SCR-20230927-pkic.png" alt="Create from blank" width="30%">
+{{< figure src="SCR-20230927-pkic.png" alt="Create from blank" width="30%" class="my-float-left" >}}
 Enter a name for your connector, such as "ChatGPT", and click Continue.
-<img src="SCR-20230927-plig.png" alt="Connector name" width="50%">
+{{< figure src="SCR-20230927-plig.png" alt="Connector name" width="40%" class="my-float-left" >}}
 5. In the General tab, enter the following information:
 
 - Description: A brief description of your connector, such as "A custom connector for OpenAI".
 - Host: The base URL of the OpenAI API, which is "api.openai.com".
-<img src="SCR-20230927-pmek.png" alt="General Information" width="50%">
+{{< figure src="SCR-20230927-pmek.png" alt="General Information" width="50%" class="my-float-left" >}}
 6. Click on Security 
 - Authentication type: Select "API Key" from the drop-down menu.
 - Parameter label: The name of the parameter that holds your API key, such as "API Key".
 - Parameter name: The name of the header that holds your API key, which is "Authorization".
 - Parameter location: Select "Header" from the drop-down menu.
-<img src="SCR-20230927-pmwf.png" alt="Security" width="50%">
+{{< figure src="SCR-20230927-pmwf.png" alt="Security" width="50%" class="my-float-left" >}}
 
 7. Click on Definition > New action and enter the following information:
 
 - Summary: A brief summary of what the action does, such as "Generate text using OpenAI".
 - Description: A detailed description of what the action does, such as "Generates text using OpenAI's GPT-3 engine based on a given prompt and parameters".
 - Operation ID: A unique identifier for the action, such as "GenerateText".
-<img src="SCR-20230927-pnkn.png" alt="Definition" width="50%">
+{{< figure src="SCR-20230927-pnkn.png" alt="Definition" width="50%" class="my-float-left" >}}
 
 8. Click on Request > Import from sample and enter the following information:
 
@@ -83,7 +83,7 @@ Enter a name for your connector, such as "ChatGPT", and click Continue.
   "presence_penalty": 0
 }
 ```
-<img src="SCR-20230927-pobx.png" alt="Import from sample" width="30%">
+{{< figure src="SCR-20230927-pobx.png" alt="Import from sample" width="30%" class="my-float-left" >}}
 
 9. Click on Import and then on Update connector.
 10. Click on Test > New connection and create a new connection for your connector. Enter your API key in the format "Bearer sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" (replace the x's with your actual key).
@@ -92,7 +92,7 @@ Enter a name for your connector, such as "ChatGPT", and click Continue.
 - model: The ChatGPT model that you want to use, such as "gpt-3.5-turbo".
 - role: The role of the user, such as "system".
 - content: The prompt that you want to use, such as "Hello! How can I assist you today?".
-<img src="SCR-20230927-pplu.png" alt="Test connection" width="50%">
+{{< figure src="SCR-20230927-pplu.png" alt="Test connection" width="50%" class="my-float-left" >}}
 
 13. Now copy the response body ,e.g. 
 ```
@@ -119,7 +119,7 @@ Enter a name for your connector, such as "ChatGPT", and click Continue.
 }
 ```
 and go to the Definition tab. In the Response section, click on Add default response and click on "Import from Sample". Enter the copied response body and click Import. This will bring the response body into the connector definition, which will allow you to use it in your app.
-<img src="SCR-20230927-onbe.png" alt="Default response" width="50%">
+{{< figure src="SCR-20230927-onbe.png" alt="Default response" width="50%" class="my-float-left" >}}
 14. Please update your connector and you are ready to go.
 
 ## How to test the custom connector in a canvas app?
@@ -137,7 +137,7 @@ To test the custom connector in a canvas app, follow these steps:
 7. In the Properties tab, change the Hint text property of the text input to "Enter your prompt here".
 8. In the Insert tab, click on Button and add a button to your app.
 9. In the Properties tab, change the Text property of the button to "Generate".
-<img src="SCR-20230927-prhk.png" alt="PowerApp Builder" width="60%">
+{{< figure src="SCR-20230927-prhk.png" alt="PowerApps Builder" width="70%" class="my-float-left" >}}
 10. In the Advanced tab, click on OnSelect and enter the following formula:
 ```
 Set(
@@ -154,4 +154,4 @@ Set(
 )
 ```
 11. Now you can test the App by entering a prompt in the text input and clicking on the button. The generated text will be displayed in the label.
-<img src="SCR-20230927-oqaj.png" alt="PowerApp Test" width="60%">
+{{< figure src="SCR-20230927-oqaj.png" alt="Test PowerApp" width="60%" class="my-float-left" >}}

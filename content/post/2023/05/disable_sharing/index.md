@@ -18,7 +18,6 @@ SharePoint Online is a powerful collaboration tool that allows users to share do
 3. Under "Site Permissions", click on "Advanced permission settings".
 4. In the ribbon choose the "Access Request Settings".
 ![Alt text](Permissions.png)
-<img class="special-img-class" style="width:75%" src="Permissions.png" />
 5. Uncheck "Allow members to share the site and individual files and folders" to restrict sharing permissions for non-owners of a document. 
 ![Alt text](Disable_Member-sharing.png)
 That's it! Now you know how to disable sharing for non-owners in SharePoint Online. If you have any questions or comments, please leave them below.

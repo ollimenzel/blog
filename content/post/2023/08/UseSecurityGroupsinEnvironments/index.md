@@ -23,12 +23,12 @@ Before sharing your Power Platform environment, establish security groups within
 ### Step 2: Access Environment Settings
 
 Within the Power Platform admin center, navigate to the environment you want to share. Open the environment settings, where you'll find the "Access control" section.
-<img src="AdminSettings.png" alt="Admin Settings Page" width="50%">
+{{< figure src="AdminSettings.png" alt="Admin Settings Page" width="70%" class="my-float-left" >}}
 
 ### Step 3: Add Security Groups
 
 In the "Access control" section, you'll see an Teams options to add security groups. There click on Create team. 
-<img src="NewTeam.png" alt="New team form" width="50%">
+{{< figure src="NewTeam.png" alt="New team form" width="30%" class="my-float-left" >}}
 Select the Team Type "Microsoft Entra Identity Security Group" security group(s) you want to grant access to. This will grant all members of the security group access to the environment without the need for separate invitations.
 There you can also select the **Membership type** for the security group. This defines which part of your (Security) Group will get access.
 The access levels are:
@@ -41,7 +41,7 @@ Fill out the other fields and click on Next.
 ### Step 4: Manage Security roles
 
 Power Platform provides various access levels, such as System Admin, Environment Maker, etc. Choose the appropriate access level for the security group members based on their responsibilities and requirements.
-<img src="SecurityRoles.png" alt="Security roles" width="50%">
+{{< figure src="SecurityRoles.png" alt="Security roles" width="40%" class="my-float-left" >}}
 
 ### Step 5: Save Changes
 

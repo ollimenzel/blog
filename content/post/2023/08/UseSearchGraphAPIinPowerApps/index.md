@@ -16,7 +16,7 @@ PowerApps is a powerful tool that allows you to create custom business applicati
 1. Before we get started, you'll need to activate the preview feature "ParseJSON function and untyped objects" in your PowerApps settings. To do this, go to the Settings menu, browse to Upcoming features, and turn on the setting called ParseJSON function and untyped objects. If this feature is not turned on, the ParseJSON function will not be found in the formula bar.
 2. You need to add the Office365Groups connector to your PowerApps. To do this, go to the Data menu, and select Office 365 Groups. This will add the connector to your PowerApps.
 
-<img src="Office365-Connector.png" alt="Adding Office365 Connector" width="50%" height="50%">
+{{< figure src="./Office365-Connector.png" alt="Adding Office365 Connector" width="30%" class="my-float-left" >}}
 
 ## Using Office365Groups.HttpRequest
 
@@ -138,7 +138,7 @@ Set(
 The HTTP request is sent to the Microsoft Graph API's search endpoint (`https://graph.microsoft.com/v1.0/search/query`) using the `Office365Groups.HttpRequest` function. The function takes three arguments: the URL of the endpoint, the HTTP method to use (in this case, `POST`), and the request body to send with the request.
 This whole code can for example be put in a buttons OnSelect property to send the request when the button is clicked.
 
-<img src="SearchBehindButton.png" alt="Button control with OnSelect code" width="50%">
+{{< figure src="SearchBehindButton.png" alt="Button control with OnSelect code" class="my-float-left" >}}
 
 
 ## Showing the Results in a Gallery
@@ -146,9 +146,9 @@ This whole code can for example be put in a buttons OnSelect property to send th
 Once we've made our HTTP request and retrieved the result, we can use a gallery to display the results. To do this, we'll need to insert a gallery control to our App and set the `Items` property of the gallery to the following. To be able to work with those results, we need to get the resonse body from the HTTP request. This is done by doing one of the following:
 
 - Make the same call in the Graph Explorer and exam the response body from there
-    <img src="Graph-Explorer.png" alt="Picture of the Graph Explorer" width="50%" height="50%">
+    {{< figure src="Graph-Explorer.png" alt="Picture of the Graph Explorer" width="60%" class="my-float-left" >}}
 - In PowerApps start the App - Monitor to get the response body from there
-    <img src="Monitor.png" alt="Advanced Tools with PowerApp Monitor" width="50%" height="50%">   
+    {{< figure src="Monitor.png" alt="Advanced Tools with PowerApp Monitor" width="30%" class="my-float-left" >}}
 
 ```
 Table(Index(Table(Index(Table(varResult.value),1).Value.hitsContainers),1).Value.hits)
