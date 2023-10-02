@@ -1,1 +1,7 @@
-<img src="{{ .Get " src" }}" alt="{{ .Get " alt" }}" style="width: {{ .Get " width" }};">
+{{ if .Get "src" }}
+{{ $original := .Page.Resources.GetMatch (.Get "src") }}
+{{ if $original }}
+{{ $width := .Get "width" | default "100%" }}
+<img src="{{ $original.RelPermalink }}" alt="{{ .Get " alt" }}" style="width: {{ $width }}; display: block;">
+{{ end }}
+{{ end }}
