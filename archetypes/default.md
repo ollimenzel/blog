@@ -10,4 +10,4 @@ slug: Disable_sharing
 toc: false
 image: Microsoft365-Logo.png
 ---
-
+{{< image src="image-2.png" alt="Connector name" width="40%" >}}
