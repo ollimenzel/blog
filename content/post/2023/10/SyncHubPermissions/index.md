@@ -9,6 +9,10 @@ categories: ["Microsoft365"]
 slug: Hub_Sync_Permissions
 toc: false
 image: image-3.png
+comments:
+  host: techhub.social
+  username: ollimenzel
+  id: 111200796795675287
 ---
 If you are using SharePoint Online, you may have created a hub site to organize your related sites and provide a consistent look and feel. A hub site consists of a main hub site and several associated sites that are connected to the hub. Each site has its own security and permissions, which means that users who have access to the hub site may not have access to the associated sites, and vice versa.
 
