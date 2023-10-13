@@ -168,6 +168,23 @@ main = [ ]
     [menu.social.params]
     icon = "brand-linkedin"
 
+  [[menu.social]]
+  identifier = "Mastodon"
+  name = "Mastodon"
+  url = "https://techhub.social/@ollimenzel"
+
+    [menu.social.params]
+    icon = "brand-mastodon"
+
+  [[menu.social]]
+  identifier = "Bluesky"
+  name = "Bluesky"
+  url = "https://bsky.app/profile/menzel.it"
+
+    [menu.social.params]
+    icon = "brand-bluesky"
+
+
 [related]
 includeNewer = true
 threshold = 60

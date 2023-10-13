@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "RepublishNews"
+date: 2023-10-13T08:22:49+02:00
 draft: true
 author: Oliver
 keywords: ["How-to", "SiteOwners", "SharePoint"]
