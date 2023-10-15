@@ -10,6 +10,7 @@ menu:
         weight: -90
         params:
             icon: user
+disableShare: true
 ---
 As an IT Solution Architect Collaboration, with more than 10 years of experience in M365, I help specialist departments optimize their communication and collaboration. To do this, I design and implement tailor-made solutions with the following focuses:
 

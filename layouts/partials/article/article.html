@@ -3,6 +3,8 @@
 
   {{ partial "article/components/content" . }}
 
+  {{ partial "share-buttons" . }}
+
   {{ with .Params.comments }}
   <div class="article-content">
     <h2>Comments</h2>

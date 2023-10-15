@@ -26,6 +26,12 @@ path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 [permalinks]
 page = "/:slug/"
 
+[params.shareButtons]
+  networks = [ "linkedin", "xing", "twitter", "email", "reddit" ]
+  size = "small"
+  icon = "solid"
+  buttonMargin = "0.2em"
+
 [params]
 mainSections = [ "post" ]
 featuredImageField = "image"

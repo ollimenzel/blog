@@ -8,5 +8,6 @@ menu:
         weight: -70
         params: 
             icon: archives
+disableShare: true
 ---
 
