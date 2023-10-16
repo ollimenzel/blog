@@ -1,7 +1,7 @@
 ---
 title: "Restoring Files from the Recycle Bin in SharePoint using PnP PowerShell"
 date: 2023-10-15T22:52:41+02:00
-draft: true
+draft: false
 author: Oliver
 keywords: ["How-to", "SiteOwners", "SharePoint"]
 tags: ["How-to", "SiteOwners", "SharePoint", "PowerShell", "PnP", "RecycleBin"]
@@ -14,8 +14,6 @@ comments:
     id: 
 image: RecycleBin.jpeg
 ---
-{{< image src="image-2.png" alt="Connector name" width="40%" >}}
-
 PnP PowerShell is a powerful tool that allows you to interact with SharePoint and perform various operations, including restoring files from the recycle bin. In this blog post, we will explore how to use PnP PowerShell to restore files from the recycle bin, filter by path or folder, and filter by timespan.
 
 ## Basic Commands
@@ -77,7 +75,7 @@ Get-PnPRecycleBinItem | Where-Object { $_.DeletedDate -gt $restoreDate -and $_.D
 ```
 
 In this example, replace `<YourFolderPath>` with your specific folder path.
-with something like this: $folderPath = "/sites/YourSiteName/Shared Documents/YourFolderName"
+with something like this: `$folderPath = "/sites/YourSiteName/Shared Documents/YourFolderName"`
 
 
 Please note that you need to be connected to your SharePoint site using `Connect-PnPOnline` before running these commands.
