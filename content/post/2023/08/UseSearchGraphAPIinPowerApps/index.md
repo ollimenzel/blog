@@ -7,6 +7,10 @@ tags: ["How-to", "PowerApps", "Search", "GraphAPI"]
 categories: ["PowerPlattform"]
 slug: PowerAppsSearchGraphAPI
 toc: false
+comments:
+    host: techhub.social
+    username: ollimenzel
+    id: 110866713489176612
 image: Article-Image.png
 ---
 PowerApps is a powerful tool that allows you to create custom business applications without the need for coding. One of the ways you can enhance your PowerApps is by using Graph API calls to the search endpoint "https://graph.microsoft.com/v1.0/search/query". In this blog post, we'll show you how to do this using the Office365Groups.HttpRequest and the preview feature "ParseJSON function and untyped objects".

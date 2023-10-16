@@ -8,6 +8,10 @@ tags: ["How-to", "Power Platform", "Security"]
 categories: ["PowerPlattform"]
 slug: EnvironmentSecurityGroups
 toc: false
+comments:
+    host: techhub.social
+    username: ollimenzel
+    id: 110935095160928984
 image: SCR-20230822-kbzs-2.png
 ---
 In today's rapidly evolving business landscape, collaboration and data-driven decision-making have become paramount. Microsoft's Power Platform empowers organizations to create custom apps, automate workflows, and derive insights from data, all without requiring extensive coding skills. As businesses strive for greater efficiency and agility, the need to collaborate seamlessly within a secure environment has become crucial. One effective way to achieve this is by sharing Power Platform environments with security groups.

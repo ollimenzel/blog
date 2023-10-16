@@ -3,10 +3,14 @@ title: "Reconnecting Pages with Language Variations After Copying Them with Shar
 date: 2023-07-27T11:57:41+02:00
 draft: false
 author: Oliver
-tags: ["How-to", "SiteOwners", "SharePoint"]
-categories: ["Microsoft365"]
+tags: ["How-to", "SiteOwners", "SharePoint", "PowerShell", "PnP", "ShareGate", "LanguageVariations"]
+categories: ["Microsoft365","PowerShell"]
 slug: reconnect_pages
 toc: false
+comments:
+    host: techhub.social
+    username: ollimenzel
+    id: 110791093243249335
 image: reconnect.png
 ---
 When copying pages with language variations using ShareGate, you may encounter an issue where the Pages for the different languages are not properly connected to each other. This results in the variations not being displayed correctly on the site.

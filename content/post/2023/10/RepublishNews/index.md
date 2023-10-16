@@ -4,8 +4,8 @@ date: 2023-10-13T08:22:49+02:00
 draft: false
 author: Oliver
 keywords: ["How-to", "SiteOwners", "SharePoint"]
-tags: ["How-to", "SiteOwners", "SharePoint"]
-categories: ["Microsoft365"]
+tags: ["How-to", "SiteOwners", "SharePoint", "PowerShell", "PnP", "SharePoint News"]
+categories: ["Microsoft365","PowerShell"]
 slug: ChangePublishDate
 toc: false
 comments:

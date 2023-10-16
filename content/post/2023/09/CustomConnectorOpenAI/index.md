@@ -8,6 +8,10 @@ tags: ["How-to", "PowerApps"]
 categories: ["AI","PowerPlattform"]
 slug: CustomConnectorOpenAI
 toc: false
+comments:
+    host: techhub.social
+    username: ollimenzel
+    id: 111167162401857712
 image: Blog_custom-connector.jpeg
 ---
 I'm super excited to share with you a new way to use OpenAI's powerful natural language processing (NLP) capabilities in your PowerApps. In this blog post, I'll show you how to set up a custom connector for OpenAI and how to test it in a canvas app. I'll also give you a brief overview of how to sign up for the OpenAI API, which is currently in beta.
