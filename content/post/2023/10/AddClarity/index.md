@@ -2,7 +2,7 @@
 title: "How to set up Microsoft Clarity for SharePoint SiteCollections with PowerShell"
 description: "In this blog post, we will explore how to use PowerShell to set up Microsoft Clarity for a SharePoint portal SiteCollection. This can be useful if you want to gain insights into how users interact with your SharePoint portal and optimize the user experience."
 date: 2023-10-23T20:35:23+02:00
-draft: true
+draft: false
 author: Oliver
 keywords: ["How-to", "SiteOwners", "SharePoint", "Portal", "PowerShell",]
 tags: ["How-to", "SiteOwners", "SharePoint", "Clarity", "PowerShell"]
@@ -12,7 +12,7 @@ toc: false
 comments:
     host: techhub.social
     username: ollimenzel
-    id: 
+    id: 111296506615577017
 image: HeaderImage.png
 ---
 ## Introduction
