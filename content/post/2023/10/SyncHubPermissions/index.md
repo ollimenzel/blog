@@ -1,9 +1,10 @@
 ---
 title: "How to Sync Hub Permissions to Associated Sites in SharePoint Online"
+description: "In this blog post, we will explore how to use SharePoint Online to sync hub permissions to associated sites. This can be useful if you want to give users access to all the sites within a hub without having to manually add them to each site."
 date: 2023-10-08T11:23:54+02:00
 draft: false
 author: Oliver
-keywords: ["How-to", "SiteOwners", "SharePoint"]
+keywords: ["How-to", "SiteOwners", "SharePoint", "Hub", "Permissions"]
 tags: ["How-to", "SiteOwners", "SharePoint"]
 categories: ["Microsoft365"]
 slug: Hub_Sync_Permissions

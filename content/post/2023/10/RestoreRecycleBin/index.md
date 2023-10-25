@@ -1,10 +1,11 @@
 ---
 title: "Restoring Files from the Recycle Bin in SharePoint using PnP PowerShell"
+description: "In this blog post, we will explore how to use PnP PowerShell to restore files from the recycle bin, filter by path or folder, and filter by timespan."
 date: 2023-10-15T22:52:41+02:00
 draft: false
 author: Oliver
-keywords: ["How-to", "SiteOwners", "SharePoint"]
-tags: ["How-to", "SiteOwners", "SharePoint", "PowerShell", "PnP", "RecycleBin"]
+keywords: ["How-to", "SiteOwners", "SharePoint", "PowerShell","PnP","RecycleBin"]
+tags: ["How-to", "SiteOwners", "SharePoint", "PowerShell"]
 categories: ["Microsoft365","PowerShell"]
 slug: RestoreRecycleBin
 toc: false

@@ -1,11 +1,12 @@
 ---
 title: "How to create a Custom connector for OpenAI in PowerApps"
+description: "In this blog post, I'll show you how to set up a custom connector for OpenAI and how to test it in a canvas app. I'll also give you a brief overview of how to sign up for the OpenAI API, which is currently in beta."
 date: 2023-09-27T15:56:44+02:00
 draft: false
 author: Oliver
 keywords: ["How-to", "PowerApps", "ChatGPT", "AI", "OpenAI", "Custom Connector"]
 tags: ["How-to", "PowerApps"]
-categories: ["AI","PowerPlattform"]
+categories: ["AI","PowerPlatform"]
 slug: CustomConnectorOpenAI
 toc: false
 comments:
@@ -14,8 +15,6 @@ comments:
     id: 111167162401857712
 image: Blog_custom-connector.jpeg
 ---
-I'm super excited to share with you a new way to use OpenAI's powerful natural language processing (NLP) capabilities in your PowerApps. In this blog post, I'll show you how to set up a custom connector for OpenAI and how to test it in a canvas app. I'll also give you a brief overview of how to sign up for the OpenAI API, which is currently in beta.
-
 ## What is OpenAI and why use it in PowerApps?
 
 OpenAI is a research organization that aims to create artificial intelligence (AI). They have developed a general-purpose NLP system called GPT-3/ GPT-4, which can generate coherent and relevant text for a wide range of tasks, such as answering questions, writing summaries, creating content, and more.

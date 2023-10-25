@@ -1,10 +1,11 @@
 ---
 title: "How to use PowerShell to change the publish date of a news page in SharePoint Online"
+description: "In this blog post, we will explore how to use PowerShell to change the first publish date of a news page in SharePoint Online. This can be useful if you need to update the publish date of a news page to reflect changes in the content or to correct errors in the original publish date."
 date: 2023-10-13T08:22:49+02:00
 draft: false
 author: Oliver
-keywords: ["How-to", "SiteOwners", "SharePoint"]
-tags: ["How-to", "SiteOwners", "SharePoint", "PowerShell", "PnP", "SharePoint News"]
+keywords: ["How-to", "SiteOwners", "SharePoint", "Portal", "PowerShell","PnP"]
+tags: ["How-to", "SiteOwners", "SharePoint", "PowerShell"]
 categories: ["Microsoft365","PowerShell"]
 slug: ChangePublishDate
 toc: false
@@ -14,11 +15,6 @@ comments:
     id: 111229815674656981
 image: ChangePublishDate.jpeg
 ---
-
-## Introduction
-
-In this blog post, we will explore how to use PowerShell to change the first publish date of a news page in SharePoint Online. This can be useful if you need to update the publish date of a news page to reflect changes in the content or to correct errors in the original publish date.
-
 ## Prerequisites
 
 Before we get started, there are a few prerequisites that you will need:

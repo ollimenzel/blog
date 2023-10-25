@@ -1,10 +1,11 @@
 ---
 title: "Using Graph API Calls to the Search Endpoint in PowerApps with Office365Groups.HttpRequest"
+description: "PowerApps is a powerful tool that allows you to create custom business applications without the need for coding. One of the ways you can enhance your PowerApps is by using Graph API calls to the search endpoint 'https://graph.microsoft.com/v1.0/search/query'. In this blog post, we'll show you how to do this using the Office365Groups.HttpRequest and the preview feature 'ParseJSON function and untyped objects'."
 date: 2023-08-10T16:31:08+02:00
 draft: false
 author: Oliver
 tags: ["How-to", "PowerApps", "Search", "GraphAPI"]
-categories: ["PowerPlattform"]
+categories: ["PowerPlatform"]
 slug: PowerAppsSearchGraphAPI
 toc: false
 comments:
@@ -13,8 +14,6 @@ comments:
     id: 110866713489176612
 image: Article-Image.png
 ---
-PowerApps is a powerful tool that allows you to create custom business applications without the need for coding. One of the ways you can enhance your PowerApps is by using Graph API calls to the search endpoint "https://graph.microsoft.com/v1.0/search/query". In this blog post, we'll show you how to do this using the Office365Groups.HttpRequest and the preview feature "ParseJSON function and untyped objects".
-
 ## Pre-requisites
 
 1. Before we get started, you'll need to activate the preview feature "ParseJSON function and untyped objects" in your PowerApps settings. To do this, go to the Settings menu, browse to Upcoming features, and turn on the setting called ParseJSON function and untyped objects. If this feature is not turned on, the ParseJSON function will not be found in the formula bar.

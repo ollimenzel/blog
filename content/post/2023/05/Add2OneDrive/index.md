@@ -1,17 +1,15 @@
 ---
 title: "Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync"
+description: "OneDrive offers convenient file management and collaboration features, including Add to OneDrive and Team Site Sync. These tools streamline access to shared files and folders, enhancing productivity. Let's explore their benefits and compare them."
 date: 2023-05-16T16:38:45+02:00
 author: Oliver
+keywords: ["How-to", "OneDrive", "SharePoint"]
 tags: ["How-to", "OneDrive", "SharePoint"]
 categories: ["Microsoft365"]
 slug: Add_to_OneDrive
 toc: false
 image: Main.png
 ---
-**Simplifying File Management with OneDrive: Add to OneDrive vs. Team Site Sync**
-
-OneDrive offers convenient file management and collaboration features, including Add to OneDrive and Team Site Sync. These tools streamline access to shared files and folders, enhancing productivity. Let's explore their benefits and compare them.
-
 ## Add to OneDrive: Easy File Access
 
 Add to OneDrive lets you bring shared files into your personal OneDrive space without moving them physically. Simply locate the desired folder, select the Folders tile, and choose "Add Shortcut to My Files." This creates a shortcut for quick access.

@@ -1,11 +1,12 @@
 ---
 title: "Simplifying Collaboration: Sharing Power Platform Environments with Security Groups"
+description: "Sharing Power Platform environments with security groups is a smart strategy for enhancing collaboration, security, and efficiency. By leveraging this approach, organizations can streamline user management, optimize resource allocation, and foster a secure and productive digital workspace."
 date: 2023-08-21T11:37:23+02:00
 draft: false
 author: Oliver
 keywords: ["How-to", "Power Platform", "Security"]
 tags: ["How-to", "Power Platform", "Security"]
-categories: ["PowerPlattform"]
+categories: ["PowerPlatform"]
 slug: EnvironmentSecurityGroups
 toc: false
 comments:

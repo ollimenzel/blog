@@ -1,16 +1,16 @@
 ---
 title: "Simplify List Creation in SharePoint using PowerAutomate and Graph API"
+description: "Today, I'll share an invaluable trick that will significantly simplify the process of creating lists in SharePoint using Power Automate. The best part? You can achieve it with just one action! Let's dive right in!"
 date: 2023-07-05T10:55:26+02:00
 draft: true
 author: Oliver
+keywords: ["How-to", "SiteOwners", "SharePoint", "PowerAutomate","GraphAPI"]
 tags: ["How-to", "SiteOwners", "SharePoint"]
-categories: ["Microsoft365","PowerPlattform"]
+categories: ["Microsoft365","PowerPlatform"]
 slug: Disable_sharing
 toc: false
 image: Microsoft365-Logo.png
 ---
-Today, I'll share an invaluable trick that will significantly simplify the process of creating lists in SharePoint using Power Automate. The best part? You can achieve it with just one action! Let's dive right in!
-
 ## Streamlining List Creation with the Graph API and SharePoint REST API
 
 To accomplish this, we'll leverage the power of the Graph API and the SharePoint REST API, which are closely related. By utilizing the "Send an HTTP request to SharePoint" action in Power Automate, we can authenticate as an end user and make calls to the Graph API.

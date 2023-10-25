@@ -1,16 +1,15 @@
 ---
 title: "How to Disable Sharing for Non-Owners in SharePoint Online"
+description: "SharePoint Online is a powerful collaboration tool that allows users to share documents and collaborate with others. However, sometimes you may want to restrict sharing permissions for non-owners of a document. In this post, we'll show you how to disable sharing for non-owners in SharePoint Online."
 date: 2023-05-11
 author: Oliver
+keywords: ["How-to", "SiteOwners", "SharePoint"]
 tags: ["How-to", "SiteOwners", "SharePoint"]
 categories: ["Microsoft365"]
 slug: Disable_sharing
 toc: false
 image: Microsoft365-Logo.png
 ---
-
-SharePoint Online is a powerful collaboration tool that allows users to share documents and collaborate with others. However, sometimes you may want to restrict sharing permissions for non-owners of a document. In this post, we'll show you how to disable sharing for non-owners in SharePoint Online.
-
 ## Steps to Disable Sharing for Non-Owners
 
 1. Open the SharePoint Online site where you want to disable sharing for non-owners.
