@@ -1,6 +1,6 @@
 baseURL = 'https://www.menzel.it/'
 languageCode = 'en-us'
-title = 'My M365 Insights'
+title = 'The State of the Microsoft 365 Nation'
 
 theme = "hugo-theme-stack"
 paginate = 5
@@ -17,7 +17,7 @@ enableRobotsTXT = true
 [languages]
 [languages.en]
 languageName = "English"
-title = "My M365 Insights"
+title = "The State of the Microsoft 365 Nation"
 weight = 1
 
 [[module.imports]]
@@ -46,7 +46,7 @@ rssFullContent = true
 
   [params.sidebar]
   emoji = ""
-  subtitle = "M365 and Power Platform: The Dynamic Duo of Collaboration"
+  subtitle = "Navigating the Digital Landscape"
 
     [params.sidebar.avatar]
     enabled = true
