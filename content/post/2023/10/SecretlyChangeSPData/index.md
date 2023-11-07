@@ -2,7 +2,7 @@
 title: "Update SharePoint Metadata Silently with PnP PowerShell"
 description: "Master SharePoint updates with PnP PowerShell—no history rewrites. Discover how to maintain metadata integrity effortlessly. Perfect for admins and IT pros!"
 date: 2023-11-06T15:58:22+01:00
-draft: true
+draft: false
 author: Oliver
 keywords: ["How-to", "SiteOwners", "SharePoint", "Microsoft365", "PowerShell", "PnP", "Update SharePoint Metadata", "PnP PowerShell Metadata", "SystemUpdate SharePoint", "SharePoint Data Integrity"]
 tags: ["How-to", "SiteOwners", "SharePoint", "Microsoft365", "PowerShell", "PnP", "Metadata"]
