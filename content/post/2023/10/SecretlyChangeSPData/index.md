@@ -12,7 +12,7 @@ toc: false
 comments:
     host: techhub.social
     username: ollimenzel
-    id: 
+    id: 111371010113250155
 image: SP-Metadata.png
 ---
 ## Why Bother with Metadata?
