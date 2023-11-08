@@ -1,6 +1,6 @@
 ---
-title: "Update SharePoint Metadata Silently with PnP PowerShell"
-description: "Master SharePoint updates with PnP PowerShell—no history rewrites. Discover how to maintain metadata integrity effortlessly. Perfect for admins and IT pros!"
+title: "Silently Update SharePoint Metadata with PnP PowerShell: A Guide for Admins"
+description: "Master the art of updating SharePoint metadata without rewriting the file history using PnP PowerShell. This guide offers a seamless approach to preserving metadata integrity, tailored for administrators and IT professionals."
 date: 2023-11-06T15:58:22+01:00
 draft: false
 author: Oliver
@@ -21,14 +21,16 @@ Think of metadata as the DNA of your SharePoint content. It tells you who create
 
 ## Keeping Metadata Intact with Updates
 
-Sometimes you need to tweak a document's details but want to keep the original "Modified By" data. PnP PowerShell is your ally here:
+Sometimes you need to adjust a document's details but want to keep the original 'Modified By' data. PnP PowerShell is your ally here:
 
 ```powershell
 # Connect to your SharePoint site
 Connect-PnPOnline -Url https://contoso.sharepoint.com/sites/demo -Interactive
 
 # Preserve metadata with a SystemUpdate
-Set-PnPListItem -List "Tasks" -Identity $item -Values @{"Title"="New Project Title"} -UpdateType SystemUpdate
+Set-PnPListItem -List "Tasks" -Identity $item -Values @{
+    "Title"="New Project Title"
+    } -UpdateType SystemUpdate
 ```
 ## Understanding Update Types in PnP PowerShell
 When you're updating SharePoint items with PnP PowerShell, you have three update methods at your disposal, each serving a different purpose. Let's demystify these:
@@ -56,7 +58,7 @@ When you're updating SharePoint items with PnP PowerShell, you have three update
 
 ## Changing Creator and Creation Dates: Is It Even Possible?
 
-Yes, it is! You might need to backdate a document or correct the creator's details during migrations or cleanup:
+Yes, it is! Adjusting the creator or creation date of a document is sometimes necessary, such as during migrations or clean-ups. Here's how you can accomplish this:
 
 ```powershell
 # Fetch the item you need to update
@@ -72,15 +74,14 @@ Set-PnPListItem -List "Documents" -Identity $item -Values @{
 
 ## Data Integrity Best Practices
 
-When you're making changes to your SharePoint content, it's essential to follow best practices to avoid data loss or corruption. Here are some tips to keep in mind:
+To safeguard your SharePoint content during updates, here are some best practices to uphold data integrity:
 
-- **Keep a Log**: Track changes for accountability.
-- **Get Approval**: Make sure changes are above board and approved.
-- **Test Changes**: Test your changes in a non-production environment before applying them to your live content.
+- Maintain a Change Log: Documenting changes ensures accountability and traceability.
+- Secure Approvals: Validate that all updates are authorized and documented.
+- Test Before Implementing: Always preview changes in a safe environment to prevent unintended consequences in your live content.
 
-## Wrapping Up
-
-Whether you're nudging metadata back to its original state or updating it to reflect new truths, PnP PowerShell offers the flexibility and power needed for the task. It’s about making changes without losing the story of your data.
+## Conclusion
+With PnP PowerShell, you have the tools to adjust metadata with precision, ensuring that your SharePoint data tells its true story without unintended revisions. It's about strategic changes that respect the narrative of your data.
 
 ## Further Reading
-PnP PowerShell Cmdlet Documentation: https://pnp.github.io/powershell/cmdlets/Set-PnPListItem.html
+Delve deeper into PnP PowerShell with the official cmdlet documentation for Set-PnPListItem, available [here](https://pnp.github.io/powershell/cmdlets/Set-PnPListItem.html).
