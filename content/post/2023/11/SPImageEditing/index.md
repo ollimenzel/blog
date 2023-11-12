@@ -12,11 +12,9 @@ toc: false
 comments:
     host: techhub.social
     username: ollimenzel
-    id: 
+    id: 111387894803631136
 image: HeaderImage.png
 ---
-{{< image src="image-2.png" alt="Connector name" width="40%" >}}
-
 ## Adding and Editing Images with the Image Web Part
 
 The Image web part simplifies the process of adding visual elements to your SharePoint Online pages. Here's how you can set it up:

@@ -1,3 +1,5 @@
 {
-    "azureAutomation.directory.basePath": ""
+    "azureAutomation.directory.basePath": "",
+    "[markdown]": {
+    }
 }
