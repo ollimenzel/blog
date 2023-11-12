@@ -2,7 +2,7 @@
 title: External User Access Reviews in Office 365
 description: In today’s interconnected world, collaboration beyond the walls of your organization is not just a convenience; it's a necessity. However, with this necessity comes the significant responsibility of managing external user access. Office 365 (O365) offers a comprehensive suite of tools that enable collaboration while helping to ensure that access is secure, appropriate, and compliant with company policies. Access reviews are a critical component of this management. Here’s how to set up and conduct external user access reviews in O365.
 date: 2023-11-12T20:19:16.212Z
-draft: true
+draft: false
 author: Oliver
 keywords:
     - Office 365
