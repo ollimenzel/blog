@@ -3,56 +3,132 @@
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
-      "pageBundle": false,
-      "previewPath": null,
+      "pageBundle": true,
+      "previewPath": "'page'",
+      "filePrefix": null,
       "fields": [
         {
-          "title": "Title",
+          "title": "title",
           "name": "title",
-          "type": "string"
+          "type": "string",
+          "single": true
         },
         {
-          "title": "Description",
+          "title": "description",
           "name": "description",
           "type": "string"
         },
         {
-          "title": "Publishing date",
+          "title": "date",
           "name": "date",
           "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
+          "default": "{{ now }}"
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
+          "title": "draft",
           "name": "draft",
-          "type": "draft"
+          "type": "boolean",
+          "default": true
         },
         {
-          "title": "Tags",
+          "title": "author",
+          "name": "author",
+          "type": "string",
+          "default": "Oliver"
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "choice",
+          "choices": [
+            "Office 365",
+            "Access Reviews",
+            "Secure Collaboration",
+            "Least Privilege Principle",
+            "Microsoft 365 Compliance Center",
+            "Azure Active Directory",
+            "Guest User Management",
+            "Review Settings",
+            "Permission Auditing",
+            "Vendor Access Control",
+            "SharePoint Site Management",
+            "Access Approval Workflow",
+            "Recurring Review Process"
+          ]
+        },
+        {
+          "title": "tags",
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "Categories",
+          "title": "categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "Slug",
+          "name": "slug",
+          "type": "slug",
+          "editable": true,
+          "default": "{{slug}}"
+        },
+        {
+          "title": "toc",
+          "name": "toc",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "title": "comments",
+          "name": "comments",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "host",
+              "name": "host",
+              "type": "string",
+              "default": "techhub.social"
+            },
+            {
+              "title": "username",
+              "name": "username",
+              "type": "string",
+              "default": "ollimenzel"
+            },
+            {
+              "title": "id",
+              "name": "id",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "title": "image",
+          "name": "image",
+          "type": "image"
         }
       ]
     }
   ],
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
-  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.preview.host": "http://localhost:1313/content",
   "frontMatter.content.pageFolders": [
     {
-      "title": "content",
-      "path": "[[workspace]]/content"
+      "title": "post",
+      "path": "[[workspace]]/content/post/{{year}}/{{month}}/{{slug}}",
+      "contentTypes": [
+        "default"
+      ]
+    },
+    {
+      "title": "page",
+      "path": "[[workspace]]/content/page",
+      "contentTypes": [
+        "default"
+      ]
     }
-  ]
+  ],
+  "frontMatter.website.host": "https://www.menzel.it"
 }
