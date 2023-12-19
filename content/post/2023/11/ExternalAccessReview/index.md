@@ -24,7 +24,7 @@ tags:
     - SharePoint
 categories:
     - Microsoft365
-    - SharePoint
+    - Governance
 slug: external-user-access-reviews-office-365-ensuring-secure-collaboration
 toc: false
 comments:
