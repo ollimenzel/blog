@@ -22,7 +22,7 @@ toc: false
 comments:
     host: techhub.social
     username: ollimenzel
-    id: ""
+    id: "111608846241824215"
 image: image-2.png
 ---
 ## Introduction
@@ -49,7 +49,6 @@ This policy is instrumental in supporting other group management policies. For e
 ### Configuring Notifications
 You can configure the following settings by clicking on the 'Configure' link:
 - **Specify who can receive ownership notifications**: Choose whether all members or only selected members can receive notifications.
-![Alt text]()
 {{< image src="image.png" alt="Dropdown Ownership notification" width="50%">}}
 
 - **Number of active members to notify**: Set the number of members to notify. Only up to 90 active members, who aren't guests, can be notified

@@ -190,6 +190,14 @@ main = [ ]
     [menu.social.params]
     icon = "brand-bluesky"
 
+  [[menu.social]]
+  identifier = "Threads"
+  name = "Threads"
+  url = "https://www.threads.net/@ollim365"
+
+    [menu.social.params]
+    icon = "brand-threads"
+
 
 [related]
 includeNewer = true

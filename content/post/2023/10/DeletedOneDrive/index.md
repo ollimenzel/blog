@@ -1,6 +1,6 @@
 ---
-title: "How to Find / Restore Deleted OneDrive Sites with PnP PowerShell"
-description: "In this blog post I will show you how to use a PowerShell script to find and restore a deleted OneDrive site in SharePoint Online. We will cover the prerequisites for running the script, the overview of the script, and the details of each step of the script."
+title: "Find / Restore Deleted OneDrive Sites with PnP PowerShell"
+description: "In this blog post, learn how to restore a deleted OneDrive site in SharePoint Online using PowerShell."
 date: 2023-10-27T15:22:18+02:00
 draft: false
 author: Oliver
@@ -12,7 +12,7 @@ toc: false
 comments:
     host: techhub.social
     username: ollimenzel
-    id: 
+    id: 111308008693991990
 image: header.png
 ---
 ## Introduction

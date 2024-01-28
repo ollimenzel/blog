@@ -196,7 +196,9 @@ To get the sample, you can use the **Run Flow** option and copy the response fro
 
 ## Conclusion
 This guide provides an overview of using Microsoft Power Automate to automate social media posts across various platforms, like BlueSky, Mastodon and LinkedIn. I hope you found this guide useful and that it helps you to get started with Power Automate. If you have any questions or feedback, please leave a comment below. Also you can combine this with a SharePoint list to create a queue for your posts. If this is interessting for you I will cover this in a future post.
+I added the Flows to my GitHub repo so you can download them and import them into your environment.
 
 ## References
 - [BlueSky API Documentation](https://atproto.com/blog/create-post#post-record-structure)
 - [Mastodon API Documentation](https://docs.joinmastodon.org/user/posting/)
+- [Flows for download on GitHub](https://github.com/ollimenzel/Blog-Files)

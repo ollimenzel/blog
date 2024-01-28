@@ -1,6 +1,6 @@
 ---
 title: "How to create a Custom connector for OpenAI in PowerApps"
-description: "In this blog post, I'll show you how to set up a custom connector for OpenAI and how to test it in a canvas app. I'll also give you a brief overview of how to sign up for the OpenAI API, which is currently in beta."
+description: "In this blog post, I'll show you how to set up a custom connector for OpenAI and test it in a canvas app."
 date: 2023-09-27T15:56:44+02:00
 draft: false
 author: Oliver
