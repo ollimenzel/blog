@@ -20,7 +20,7 @@ toc: false
 comments:
     host: techhub.social
     username: ollimenzel
-    id: "111835402481462176"
+    id: "111835402481462176| Where-Object { $_.Title -notcontains 'SharingLinks' }"
 image: "Header-Picture.jpeg"
 ---
 ## Prerequisites
