@@ -107,6 +107,11 @@
           "title": "image",
           "name": "image",
           "type": "image"
+        },
+        {
+          "title": "replyto",
+          "name": "replyto",
+          "type": "string"
         }
       ]
     }
