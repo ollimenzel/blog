@@ -35,7 +35,11 @@
     esac
   done
 
-  last_file=$( ls -1 -drt $HOME/DevOPS/blog/content/post/* |tail -1 )
+current_year=$(date +%Y)
+current_month=$(date +%m)
+
+  last_file=$( ls -1 -drt $HOME/DevOPS/blog/content/post/$current_year/$current_month/* | tail -1)
+  last_file="$last_file/index.md"
   url=$( rg replyto: $last_file | awk '{print $2}' | head -1 )
   
   echo $content >  $final_toot
@@ -50,7 +54,7 @@
   id=$( cat /tmp/status.id); sed -i "s/id: /id: ${id}/" $last_file
 
   # redeploying the blog
-  ${HOME}/bin/lazybear-deploy
+  $HOME/DevOPS/blog/menzel-deploy.sh
 
   # cleaning up
   rm $final_toot

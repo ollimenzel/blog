@@ -118,11 +118,12 @@
   ],
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
-  "frontMatter.preview.host": "http://localhost:1313/content",
+  "frontMatter.preview.host": "http://localhost:1313/content/{{year}}/{{month}}\",",
   "frontMatter.content.pageFolders": [
     {
       "title": "post",
-      "path": "[[workspace]]/content/post/{{year}}/{{month}}/{{slug}}",
+      "previewPath": "/{{fm.type}}/{{pathToken.3}}/{{pathToken.4}}",
+      "path": "[[workspace]]/content/{{year}}/{{month}}",
       "contentTypes": [
         "default"
       ]
