@@ -1,17 +1,16 @@
 ---
-title: Finding doublettes in SharePoint list with PnP PowerShell
+title: Deleting doublettes in SharePoint list with PnP PowerShell
 description: Finding doublettes in a SharePoint list using PnP PowerShell and remove them.
 date: 2024-03-10T10:59:06.961Z
 draft: false
 author: Oliver
 keywords:
+  - Doublettes
   - PnP
   - PowerShell
+  - Remove
   - SharePoint
   - SharePoint list
-  - User Management
-  - Doublettes 
-  - Remove
   - Sharing is caring
 tags:
   - PnP
@@ -25,9 +24,9 @@ toc: false
 comments:
   host: techhub.social
   username: ollimenzel
-  id: ""
-image: "Header-Image.jpeg"
-replyto: "https://www.menzel.it/post/2024finding-doublettes-sharepoint-list-pnp-powershell"
+  id: "112073074142221890"
+image: Header-Image.jpeg
+replyto: https://www.menzel.it/post/2024/finding-doublettes-sharepoint-list-pnp-powershell
 type: default
 ---
 In this blog post, I will break down a PnP PowerShell script that is designed to connect to a SharePoint site, retrieve a list of users from a specific SharePoint list (doublettes), identify duplicate users based on a unique identifier field, and then remove these duplicates. Of course you can use this script to remove any other kind of duplicate as well.
