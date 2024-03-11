@@ -14,12 +14,6 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
   priority = 0.5
 
-[outputs]
-  home = ['html', 'rss']
-  section = ['html', 'rss']
-  taxonomy = ['html']
-  term = ['html']
-
 [languages]
 [languages.en]
 languageName = "English"
