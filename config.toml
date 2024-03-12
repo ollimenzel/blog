@@ -9,6 +9,12 @@ DefaultContentLanguage = "en"
 hasCJKLanguage = false
 enableRobotsTXT = true
 
+[outputs]
+  home = ['html', 'rss']
+  section = ['html']
+  taxonomy = ['html']
+  term = ['html']
+
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
@@ -35,7 +41,7 @@ page = "/:slug/"
 [params]
 mainSections = [ "post" ]
 featuredImageField = "image"
-rssFullContent = true
+rssFullContent = false
 
   [params.footer]
   since = 2_020
