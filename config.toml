@@ -8,10 +8,11 @@ disqusShortname = "hugo-theme-stack"
 DefaultContentLanguage = "en"
 hasCJKLanguage = false
 enableRobotsTXT = true
+content.enabled = false
 
 [outputs]
-  home = ['html', 'rss']
-  section = ['html']
+  home = ['html']
+  section = ['html', 'rss']
   taxonomy = ['html']
   term = ['html']
 
@@ -138,6 +139,12 @@ local = false
   [params.colorScheme]
   toggle = true
   default = "auto"
+
+[imageProcessing]
+  # Enable WebP format
+  WebP = true
+  # Set the quality for WebP images (optional)
+  quality = 75
 
 [params.imageProcessing.cover]
 enabled = true

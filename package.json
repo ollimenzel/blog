@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@frontmatter/extensibility": "^0.0.14"
+  }
+}

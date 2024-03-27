@@ -129,7 +129,7 @@ This should give you a good starting point for rebuilding the BlueSky posting wo
 1. HTTP - Create Session:
 {{< image src="image-6.png" alt="Create Session" width="50%">}}
     - URI: `https://bsky.social/xrpc/com.atproto.server.createSession`
-    - Body: `{ "identifier": "@{parameters('BlueSky HandleName')}", "password": "@{parameters('BlueSky App Password')}" }`
+    - Body: `{ "identifier": "@{parameters('BlueSky_UserName')}", "password": "@{parameters('BlueSky_App-Password')}" }`
 
 1. Parse JSON - New Session Response:
 
@@ -139,7 +139,7 @@ This should give you a good starting point for rebuilding the BlueSky posting wo
 1. HTTP - Post Post:
 {{< image src="image-8.png" alt="Post Post" width="50%">}}
     - URI: `https://bsky.social/xrpc/com.atproto.repo.createRecord`
-    - Body: `{ "repo": "menzel.it", "collection": "app.bsky.feed.post", "record": { "createdAt": "@utcNow()", "facets": "@if(equals(length(variables('facets')),0),'[]',variables('facets'))", "text": "@variables('Complete Text')" } }`
+    - Body: `{ "repo": "@{parameters('BlueSky_HandleName')}", "collection": "app.bsky.feed.post", "record": { "createdAt": "@utcNow()", "facets": "@if(equals(length(variables('facets')),0),'[]',variables('facets'))", "text": "@variables('Complete Text')" } }`
     - Authentication: Requires an API key from BlueSky Social's account settings​​.  
 
 ---

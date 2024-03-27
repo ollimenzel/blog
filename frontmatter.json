@@ -118,23 +118,26 @@
   ],
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
-  "frontMatter.preview.host": "http://localhost:1313/content/{{year}}/{{month}}\",",
+  "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "title": "post",
-      "previewPath": "/{{fm.type}}/{{pathToken.3}}/{{pathToken.4}}",
-      "path": "[[workspace]]/content/{{year}}/{{month}}",
-      "contentTypes": [
-        "default"
-      ]
+      "title": "posts",
+      "path": "[[workspace]]/content/post",
+      "disableCreation": true
     },
     {
-      "title": "page",
-      "path": "[[workspace]]/content/page",
-      "contentTypes": [
-        "default"
-      ]
+      "title": "Blog posts",
+      "filePrefix": null,
+      "previewPath": "/{{fm.type}}/{{pathToken.3}}/{{pathToken.4}}",
+      "path": "[[workspace]]/content/post/{{year}}/{{month}}"
     }
   ],
-  "frontMatter.website.host": "https://www.menzel.it"
+  "frontMatter.website.host": "https://www.menzel.it",
+  "frontMatter.custom.scripts": [
+    {
+      "title": "Send social Post",
+      "script": "./scripts/socialPosts.mjs",
+      "command": "~/.nvm/versions/node"
+    }
+  ]
 }

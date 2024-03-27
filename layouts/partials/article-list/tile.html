@@ -1,0 +1,44 @@
+{{ $image := partialCached "helper/image" (dict "Context" .context "Type" .Type) .context.RelPermalink .Type }}
+<article class="{{ if $image.exists }}has-image{{ end }}">
+    <a href="{{ .context.RelPermalink }}">
+        
+        {{ if $image.exists }}
+            <div class="article-image">
+                {{ if $image.resource }}
+                    {{- $imageRaw := $image.resource | resources.Fingerprint "md5" -}}
+                    {{- $Permalink := $imageRaw.RelPermalink -}}
+                    {{- $Width := $imageRaw.Width -}}
+                    {{- $Height := $imageRaw.Height -}}
+                    {{- $thumbnail := $imageRaw.Fill .size -}}
+                    {{ $resizedPermalink := $thumbnail.Resize (printf "%dx%d webp q60" $Width $Height) -}}
+                    {{ $resizedPermalink = $resizedPermalink.RelPermalink -}}
+
+
+                    {{- if .context.Site.Params.imageProcessing.cover.enabled -}}
+                        {{- $thumbnail := $imageRaw.Fill .size -}}
+                        {{- $Permalink = $thumbnail.RelPermalink -}}
+                        {{- $Width = $thumbnail.Width -}}
+                        {{- $Height = $thumbnail.Height -}}
+                        {{ $resizedPermalink := $thumbnail.Resize (printf "%dx%d webp q60" $Width $Height) -}}
+                        {{ $resizedPermalink = $resizedPermalink.RelPermalink -}}
+                    {{- end -}}
+                    
+                    <picture>
+                        <source type="image/webp" srcset="{{ $resizedPermalink }}">
+                        <source type="image/png" srcset="{{ $Permalink }}">
+                        <img loading="lazy" src="{{ $Permalink }}" alt="Featured image of post {{ .Title }}" {{ with $Width }}
+                            width="{{ . }}" {{ end }} {{ with $Height }} height="{{ . }}" {{ end }}>
+                    </picture>
+                {{ else }}
+                    <img src="{{ $image.permalink }}" loading="lazy" data-key="{{ .context.Slug }}" data-hash="{{ $image.permalink }}"/>
+                {{ end }}
+            </div>
+        {{ end }}
+
+        <div class="article-details">
+            <h2 class="article-title">
+                {{- .context.Title -}}
+            </h2>
+        </div>
+    </a>
+</article>
