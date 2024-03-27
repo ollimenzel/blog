@@ -11,8 +11,8 @@ enableRobotsTXT = true
 content.enabled = false
 
 [outputs]
-  home = ['html']
-  section = ['html', 'rss']
+  home = ['html', 'rss']
+  section = ['html']
   taxonomy = ['html']
   term = ['html']
 
