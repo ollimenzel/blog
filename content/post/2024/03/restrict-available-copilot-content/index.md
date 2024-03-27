@@ -26,14 +26,14 @@ toc: false
 comments:
    host: techhub.social
    username: ollimenzel
-   id: ""
+   id: "112169151739760275"
 image: Header-Picture.jpeg
 replyto: ""
 type: default
 ---
 
 ## Why Permissions in Office365 matter for Copilot
-In the ever changing digital landscape, managing permissions and ensuring data security are paramount. This blog post delves into the importance of permissions in Office365 for the functionality and security of Copilot, an AI that integrates with various Office365 applications. It explores how permissions at different levels in SharePoint control content visibility, how to fine-tune content visibility for Copilot, and the role of sensitivity labels in data protection. The post also introduces the *Restricted SharePoint Search* feature, a recent addition by Microsoft to enhance data governance and privacy. Read on to understand these concepts in detail and learn how to enable and curate Restricted SharePoint Search for your organization. This knowledge will help you leverage Copilot effectively while maintaining the integrity and confidentiality of your data within the Office365 ecosystem. Let's dive in!
+In the ever changing digital landscape, managing permissions and ensuring data security are paramount. This blog post delves into the importance of permissions in Office365 for the functionality and security of Copilot, an AI that integrates with various Office365 applications. It explores how permissions at different levels in SharePoint control content visibility, how to fine-tune content visibility for Copilot, and the role of sensitivity labels in data protection. Read on to understand these concepts in detail and learn how to enable and curate Restricted SharePoint Search for your organization. This knowledge will help you leverage Copilot effectively while maintaining the integrity and confidentiality of your data within the Office365 ecosystem. Let's dive in!
 
 ## 1. Navigating SharePoint Permissions: Tailoring Visibility at Every Level
 
