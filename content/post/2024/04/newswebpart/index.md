@@ -1,29 +1,35 @@
 ---
-title: Organize Your SharePoint Site with a News Web Part
+title: Organize Your SharePoint Informations with a News Web Part
 description: Your SharePoint site is about to get a makeover! See how to use the News Web Part to create a personalized content hub that keeps your team informed & engaged.
-date: 2024-04-18T13:03:32.133Z
-draft: true
+date: 2024-04-23T19:20:14.780Z
+draft: false
 author: Oliver
-keywords: ""
-tags: []
-categories: []
-slug: newswebpart
+keywords:
+    - SharePoint
+    - News Web Part
+    - Metadata
+    - How-to
+    - Organize
+tags:
+    - Metadata
+    - SharePoint
+    - How-to
+categories:
+    - Microsoft365
+slug: organize-sharepoint-site-news-web-part
 toc: false
 comments:
     host: techhub.social
     username: ollimenzel
     id: ""
-image: ""
+image: Header-Image.jpeg
 replyto: ""
 type: default
 ---
 ## What Is the SharePoint News Web Part?
 
-Think of the News Web Part as your virtual notice board. It's a digital space in SharePoint where you can pin updates, ideas, and stories. But wait—there's more! This tool is not just for news, it's a versatile platform for all sorts of information sharing.
-
-## Personalizing Your Content Hub
-
-Our journey begins with a unique site that's tailored to show you exactly what you need, whether it's documents, tools, or topics you're passionate about. It's like having a librarian who knows you by name and always recommends the perfect read.
+The News Web Part is like a blank canvas. You can use it to create a personalized content hub that keeps your team informed and engaged. It's like having your own digital newspaper, but better!  
+You can use it to share updates, announcements, and stories with your team. It's a great way to keep everyone in the loop and make sure they don't miss out on important information.
 
 ## Labeling Content Made Simple
 
@@ -40,12 +46,14 @@ Now, let's roll up our sleeves and set up the News Web Part:
 ### Creating a 'Topic' Column
 1. **Head to the Site Pages library**: This is where your content lives.
 2. **Add a 'Topic' column**: Name it, choose 'Choice', and list your topics.
-![alt text](image.png)
+{{< image src="image.png" alt="Column creation menu" width="30%">}}
+
 3. **Save**: Your labels are ready to go!
 
 ### Tagging Your Pages
 1. **Edit your page**: Go to the details pane and choose a 'Topic'.
-![alt text](image-1.png)
+{{< image src="image-1.png" alt="Page properties" width="30%">}}
+
 
 ### Filtering News Like a Pro
 1. **Edit your page**: Click the pencil icon to edit the page and insert the News Web Part to the page.
@@ -54,7 +62,7 @@ Now, let's roll up our sleeves and set up the News Web Part:
 - Go to the filter section and pick 'Page properties' as filter. 
 - Choose the 'Topic' column as the property, 
 - Check right value(s) (e.g. Project A) and let the magic happen.
-![alt text](image-2.png)
+{{< image src="image-2.png" alt="Filtering News" width="30%">}}
 
 ## Real-Life Magic
 

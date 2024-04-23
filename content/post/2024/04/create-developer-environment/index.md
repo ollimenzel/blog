@@ -2,14 +2,15 @@
 title: Getting Started with Power Platform dev environment
 description: This post guides you through signing up for a Power Platform developer environment and creating your first environment(s).
 date: 2024-04-18T13:33:02.854Z
-draft: true
+draft: false
 author: Oliver
 keywords:
     - Power Platform
     - Developer Environment
     - PowerApps
     - Power Automate
-    - test apps
+    - test
+    - create
 tags:
     - How-to
     - Power Platform
@@ -20,12 +21,12 @@ toc: false
 comments:
     host: techhub.social
     username: ollimenzel
-    id: ""
+    id: "112299533357668744"
 image: "Header-Image.jpeg"
 replyto: ""
 type: default
 ---
-Welcome to the exciting world of Power Platform! If you're new to this platform and eager to explore its capabilities, you've come to the right place. This post will guide you through the process of setting up your Power Platform developer environment. I'll walk you through the steps of signing up for a Power Platform developer environment and creating your first environment(s). This will provide you with a sandbox where you can create, test, and share your apps, workflows, dashboards, and chatbots before publishing them.
+Power Platform is a suite of low-code/no-code tools that enable you to build PowerApps, Power Automate workflows, and analyze data PowerBI. This post will guide you through the process of setting up your Power Platform developer environment. I'll walk you through the steps of signing up for a Power Platform developer environment and creating your first environment(s). This will provide you with a sandbox where you can create, test, and share your apps, workflows, dashboards, and chatbots before publishing them.
 
 **Let's get started!**
 
@@ -62,9 +63,15 @@ Click on the name of your new developer environment to access it.
 
 ## Next Steps
 
-With your developer environments set up, you're ready to start exploring and creating. Build apps, automate workflows, and harness the power of Dataverse to manage data—all within your sandbox.
+With your developer environments set up, you're ready to start exploring and creating. Build PowerApps, Power Automate workflows, and harness the power of Dataverse to manage data—all within your sandbox.
 
-For a more detailed guide and visual walkthrough, consider watching tutorial videos that cover the entire process. These resources can provide additional insights and tips to enhance your Power Platform journey.
+Here are some resources to help you get started:
+- [Power Apps documentation](https://docs.microsoft.com/en-us/powerapps/)
+- [Power Automate documentation](https://docs.microsoft.com/en-us/power-automate/)
+- [Youtube Channel of Reza Dorrani](https://www.youtube.com/@RezaDorrani/videos)
+- [Youtube Channel of Shane Young](https://www.youtube.com/@ShaneYoungCloud/videos)
+- [Youtube Channel of April Dunnam](https://www.youtube.com/@AprilDunnam/videos)
+- [Youtube Channel of Daniel Christian](https://www.youtube.com/@DanielChristian/videos)
 
 Happy developing!
 
