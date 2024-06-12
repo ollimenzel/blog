@@ -2,7 +2,7 @@
 title: Granting Access to Specific SharePoints with PnP-PowerShell
 description: Learn how to grant application access to specific SharePoint sites using PnP-PowerShell for enhanced security and compliance in your development projects.
 date: 2024-06-09T15:46:10.889Z
-draft: true
+draft: false
 author: Oliver
 keywords:
   - SharePoint
@@ -24,7 +24,7 @@ toc: false
 comments:
   host: techhub.social
   username: ollimenzel
-  id: ""
+  id: "112605198598370797"
 image: header-image.jpeg
 replyto: ""
 type: default
